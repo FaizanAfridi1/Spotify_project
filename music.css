@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500&family=IBM+Plex+Sans:wght@100&family=Montserrat:wght@400;500;600&family=Onest:wght@100;200&family=Open+Sans:ital,wght@1,300&family=Playpen+Sans:wght@200;300&family=Poppins:wght@200;400&family=Raleway:ital,wght@1,100;1,300&family=Sometype+Mono:ital@1&family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111010;
+}
+.full-pack {
+  display: flex;
+  background-color: #121212;
+}
+.container {
+  /* background-color: aqua; */
+  width: 14vw;
+  height: 101vh;
+  padding-top: 1px;
+  position: fixed;
+  margin-top: -6px;
+}
+.img {
+  background-color: rgb(36, 36, 36);
+  color: aliceblue;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 16%;
+  margin: 4px;
+}
+.item {
+  display: flex;
+  gap: 15px;
+  margin-top: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.img img {
+  width: 25px;
+}
+.item:nth-child(1) {
+  gap: 0px;
+  font-family: "AR One Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.item:nth-child(2) {
+  font-size: 18px;
+  font-family: "AR One Sans", sans-serif;
+}
+.item input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: all 500ms;
+  color: white;
+}
+.item input::placeholder {
+  font-size: 18px;
+  color: aliceblue;
+  font-family: "AR One Sans", sans-serif;
+}
+.item:nth-child(1) img {
+  width: 38px;
+}
+.info {
+  background-color: rgb(36, 36, 36);
+  color: aliceblue;
+  border-radius: 8px;
+  height: 82%;
+  margin: 4px;
+}
+.liberty img {
+  width: 50px;
+}
+.liberty {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 6px;
+}
+.liberty svg {
+  width: 21px;
+  /* margin-left: 70px; */
+  height: 25px;
+  transition: all 200ms;
+  fill: white;
+  opacity: 0.5;
+}
+.liberty svg:hover {
+  background-color: #2f2929;
+  border-radius: 50px;
+  opacity: 1;
+}
+.liberty-set {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  opacity: 0.6;
+  gap: 2px;
+  transition: all ease 500ms;
+}
+.liberty-set:hover {
+  opacity: 1;
+}
+.liberty-set span {
+  font-size: 16px;
+  font-family: "AR One Sans", sans-serif;
+}
+.all-lib {
+  display: flex;
+  margin: 8px 16px;
+  align-items: center;
+  width: 99%;
+}
+.playlist-text {
+  height: 17%;
+  width: 96%;
+  background-color: rgb(61, 59, 59);
+  margin: auto;
+  border-radius: 8px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 16px;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 14px;
+}
+.margin {
+  margin-top: 11px;
+}
+.btn-playlist {
+  padding: 4px 11px;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "AR One Sans", sans-serif;
+  cursor: pointer;
+}
+.btn-playlist:hover {
+  scale: 1.1;
+}
+.browser-podcast {
+  height: 20%;
+  width: 96%;
+  background-color: rgb(61, 59, 59);
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.brow-text {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  font-family: "AR One Sans", sans-serif;
+}
+.brow-margin {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.brow-btn {
+  padding: 4px 11px;
+  margin-top: 25px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "AR One Sans", sans-serif;
+  cursor: pointer;
+}
+.brow-btn:hover {
+  scale: 1.1;
+}
+.footer-text {
+  margin-top: 100%;
+  margin-left: 1%;
+  font-size: 10px;
+  font-family: "AR One Sans", sans-serif;
+}
+.footer-text a {
+  margin-left: 18px;
+  color: white;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  text-decoration: underline;
+}
+.footer-text1 {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-text2 {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.all-span {
+  margin-left: 20px;
+}
+.bars {
+  position: absolute;
+  color: white;
+  margin-left: 2%;
+  margin-top: 30px;
+}
+.bar1 {
+  margin-left: 50px;
+}
+.bar-op {
+  opacity: 0.5;
+}
+.second-container {
+  height: 100vh;
+  width: 85vw;
+  /* background-color: brown; */
+  margin-left: 270px;
+  margin-top: 3px;
+  border-radius: 7px;
+}
+.navbar {
+  position: fixed;
+  width: 86%;
+  height: 7%;
+  background-color: rgba(23, 21, 21, 0.315);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  backdrop-filter: blur(10px);
+}
+.nav-text {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+  gap: 12px;
+}
+.h1s {
+  display: flex;
+  gap: 14px;
+  border-right: 2px solid rgb(70, 71, 71);
+  padding: 0 15px;
+}
+.h1s h1 {
+  opacity: 0.5;
+  transition: all 200ms;
+  cursor: pointer;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 17px;
+}
+.h1s h1:hover {
+  opacity: 1;
+}
+.btns button {
+  margin-left: 20px;
+  font-family: "AR One Sans", sans-serif;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.btns a {
+  margin-left: 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: all 200ms;
+  font-family: "AR One Sans", sans-serif;
+}
+.btns a:hover {
+  opacity: 1;
+  font-size: 20px;
+}
+.hero {
+  margin-top: 73px;
+  height: 102%;
+  color: white;
+  background-color: rgb(36, 36, 36);
+  padding-top: 20px;
+}
+.hero-h1 {
+  font-family: "AR One Sans", sans-serif;
+  font-size: 24px;
+  margin-left: 28px;
+}
+.cards {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.imges {
+  background-color: #141513;
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 130px;
+  margin-left: 30px;
+  transition: all 200ms;
+  cursor: pointer;
+}
+.imges:hover {
+  background-color: #2c2f29;
+}
+.imges img {
+  height: 135px;
+  border-radius: 7px;
+  width: 130px;
+  margin-bottom: 15px;
+}
+.imges p {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+.img-h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+.more-card {
+  margin-top: 30px;
+  margin-left: 12px;
+}
+.img-flex {
+  display: flex;
+  margin-top: 30px;
+  margin-left: -13px;
+}
+.imges #icon {
+  opacity: 0;
+  position: absolute;
+  background-color: #1fdf64;
+  padding: 3px;
+  border-radius: 30px;
+  margin: 78px 72px;
+  font-size: 40px;
+  color: black;
+  transition: all 200ms;
+  display: none;
+}
+.imges span:hover {
+  scale: 1.1;
+}
+.more-info {
+  font-family: "AR One Sans", sans-serif;
+  display: flex;
+  margin-top: 30px;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.info-text span {
+  margin-top: 12px;
+}
+.info-text .color {
+  opacity: 0.5;
+  transition: all 200ms;
+  cursor: pointer;
+}
+.info-text .color:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.font {
+  font-size: 18px;
+  font-family: "AR One Sans", sans-serif;
+  color: aliceblue;
+}
+.margin-info {
+  margin-left: 5%;
+}
+.margin-info2 {
+  margin-left: 5%;
+}
+.mini-icons img {
+  width: 18px;
+  background-color: #353331;
+  padding: 10px;
+  border-radius: 16px;
+  margin-top: 85px;
+  margin-left: 20px;
+  transition: all 200ms;
+}
+.mini-icons img:hover {
+  background-color: rgb(155, 145, 145);
+  scale: 1.2;
+}
+.flex-img {
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+hr {
+  width: 95%;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #373a3c;
+}
+.bottom-footer {
+  margin-top: 40px;
+}
+.bottom-footer span {
+  margin-left: 42px;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.open-menu{
+  width: 30px;
+  height: 22px;
+  display: none;
+  cursor: pointer;
+}
+.close-menu{
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  display: none;
+}
+
